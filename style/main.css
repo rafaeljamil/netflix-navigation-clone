@@ -49,12 +49,48 @@ header nav a:hover{
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
+    padding-left: 45px;
 }
 
 .main-movie .description{
+    margin-top: 10px;
     margin-bottom: 40px;
+    max-width: 55%;
+    text-align: justify;
 }
 
 .title{
+    margin-top: 15%;
     font-size: 40px;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+}
+
+.btn{
+    background-color: rgb(44, 44, 44);
+    border: none;
+    color: white;
+    padding: 15px 30px;
+    margin-right: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .3s ease all;
+}
+
+.container p{
+
+}
+
+.btn i{
+    padding-right: 10px;
+}
+
+.btn-play{
+    color: black;
+    background-color: whitesmoke;
+}
+
+.btn:hover{
+    box-shadow: inset 0 0 0 1000px rgba(0,0,0,.3);/*Parece o que o netflix usa de fato*/
 }
