@@ -44,13 +44,14 @@ header nav a:hover{
 .main-movie{
     font-size: 18px;
     background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50) 100%), url("/img/house-cover.jpg");
-    height: 95vh;
-    background-size: cover;
+    height: 35vh;
+    background-size: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
     padding-left: 45px;
+    margin-bottom: 20px;
 }
 
 .main-movie .description{
@@ -79,9 +80,6 @@ header nav a:hover{
     transition: .3s ease all;
 }
 
-.container p{
-
-}
 
 .btn i{
     padding-right: 10px;
@@ -94,4 +92,14 @@ header nav a:hover{
 
 .btn:hover{
     box-shadow: inset 0 0 0 1000px rgba(0,0,0,.3);/*Parece o que o netflix usa de fato*/
+}
+
+.carousel-movies{
+    height: 300px;
+}
+
+.box-movie{
+    height: 100%;
+    width: 100%;
+    display: block;
 }

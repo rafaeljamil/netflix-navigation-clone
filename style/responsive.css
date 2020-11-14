@@ -1,0 +1,22 @@
+@media screen and (max-width:670px){
+    header .container {
+        display: flex;
+        flex-direction: column;
+    }
+    .main-movie{
+        background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50) 100%), url("/img/house-cartaz.jpg");
+        height: 55vh;
+        background-size: 100%;
+    }
+
+    .btn{
+        margin-top: 15px;
+        width: 250px;
+    }
+}
+
+@media (min-width: 1000px){
+    .main-movie{
+        height: 55vh;
+    }
+}
